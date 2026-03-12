@@ -1,0 +1,167 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Payment Methods | Vibeank Creatives</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/images/logo.png" alt="Vibeank Creatives Logo">
+                <span>Vibeank Creatives</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#services">Services</a>
+                <a href="index.html#portfolio">Portfolio</a>
+                <a href="index.html#news">News</a>
+                <a href="payment.html">Payments</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="page-main">
+        <!-- PAYMENT SECTION -->
+        <section id="payment" class="page-section payment-section">
+            <div class="container">
+                <div class="section-header">
+                <h2 class="section-title">
+                    Payment <span class="gradient-text">Methods</span>
+                </h2>
+                <p class="section-subtitle">Secure and convenient payment options</p>
+                </div>
+
+                <div class="payment-grid">
+
+                <!-- LANKAQR -->
+                <div class="payment-card">
+                    <h3 class="payment-title">LankaQR</h3>
+                    <p class="payment-desc">
+                    Pay easily using any supported banking or payment app.
+                    </p>
+
+                    <div class="qr-image-wrapper">
+                    <!-- Replace src with your QR image -->
+                    <img src="assets/images/lankaqr.jpg" alt="LankaQR Payment">
+                    </div>
+                </div>
+
+                <!-- BANK TRANSFER -->
+                <div class="payment-card">
+                    <h3 class="payment-title">Bank Transfer</h3>
+
+                    <div class="bank-list">
+
+                    <!-- BANK ITEM -->
+                    <div class="bank-item">
+                        <img src="assets/images/boc.svg" alt="Bank Logo" class="bank-logo">
+                        <div class="bank-info">
+                        <span class="bank-name">Bank of Ceylon</span>
+                        <span class="bank-account">Account No: 0071400158</span>
+                        <span class="bank-meta">Branch: Gampaha</span>
+                        <span class="bank-meta">Name: WDK Madhushan</span>
+                        </div>
+                    </div>
+
+                    <!-- BANK ITEM -->
+                    <div class="bank-item">
+                        <img src="assets/images/people's.png" alt="Bank Logo" class="bank-logo">
+                        <div class="bank-info">
+                        <span class="bank-name">People's Bank</span>
+                        <span class="bank-account">Account No: 202200190036279</span>
+                        <span class="bank-meta">Branch: Kirindiwela</span>
+                        <span class="bank-meta">Name: WDK Madhushan</span>
+                        </div>
+                    </div>
+
+                    <!-- BANK ITEM -->
+                    <div class="bank-item">
+                        <img src="assets/images/sampath.png" alt="Bank Logo" class="bank-logo">
+                        <div class="bank-info">
+                        <span class="bank-name">Sampath Bank</span>
+                        <span class="bank-account">Account No: 100152997192</span>
+                        <span class="bank-meta">Branch: City Branch (Colombo)</span>
+                        <span class="bank-meta">Name: WDK Madhushan</span>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+                </div>
+
+                <!-- CONFIRM PAYMENT -->
+                <div class="payment-confirm">
+                <h3>How to Confirm Your Payment</h3>
+                <ul>
+                    <li>Complete your payment</li>
+                    <li>Save the payment confirmation</li>
+                    <li>Click confirm payment and send details</li>
+                </ul>
+
+                <a href="https://wa.me/94715265251" target="_blank" class="btn-primary">
+                    Confirm Payment
+                </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer" id="footer">
+        <div class="footer-container">
+
+            <!-- Brand -->
+             <div class="footer-brand">
+            <img src="assets/images/logo.png" alt="Vibeank Creatives Logo" class="footer-logo">
+            <h3 class="footer-name">Vibeank Creatives</h3>
+            <p class="footer-tagline">Unlock your brand vibrancy</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>Email: vibeank@gmail.com</p>
+            <p>Phone: +94 71 526 5251</p>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-social">
+            <h4>Follow</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/vibeank">FB</a>
+                <a href="https://www.instagram.com/vibeank_creatives">IG</a>
+                <a href="https://www.linkedin.com/company/vibeank">LN</a>
+                <!--<a href="https://www.youtube.com/vibeank">YT</a>-->
+            </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Vibeank Creatives. All rights reserved.</p>
+            <script>document.getElementById("year").textContent = new Date().getFullYear();</script> <!--make the year update automatically-->
+        </div>
+    </footer>
+</body>
